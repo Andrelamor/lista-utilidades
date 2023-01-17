@@ -42,12 +42,12 @@ isles.dat : books/isles.txt
 
 - Dependencies are transitive: if A depends on B and B depends on C, a change to C will indirectly trigger an update to A.
 
-- We still have to add the testzipf.py script as dependency to results.txt. Given the answer to the challenge above, we cannot use $^ in the rule.  We can however move testzipf.py to be the first dependency and then use $< to refer to it. In order to refer to the .dat files, we can just use `*.dat` for now (we will cover a better solution later on):
+- We still have to add the `testzipf.py` script as dependency to `results.txt`. Given the answer to the challenge above, we cannot use `$^` in the rule.  We can however move `testzipf.py` to be the first dependency and then use `$<` to refer to it. In order to refer to the `.dat` files, we can just use `*.dat` for now (we will cover a better solution later on):
 
 ````
 results.txt : testzipf.py isles.dat abyss.dat last.dat
 	python $< *.dat > $@
-	````
+````
 
 
 ### [Pattern Rules](http://swcarpentry.github.io/make-novice/05-patterns/index.html)
@@ -62,7 +62,7 @@ dats : isles.dat abyss.dat last.dat
 
 %.dat : books/%.txt countwords.py
 	python countwords.py $< $*.dat
-	````
+````
 
 
 ### [Variables](http://swcarpentry.github.io/make-novice/06-variables/index.html)
