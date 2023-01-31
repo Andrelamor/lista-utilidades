@@ -123,3 +123,35 @@ We can then write a help target that applies sed to our Makefile:
 help : Makefile
 	@sed -n 's/^##//p' $<
 ````
+
+## [Conclusion](https://swcarpentry.github.io/make-novice/09-conclusion/index.html)
+
+Edit the Makefile to create an archive file of your project. Add new rules, update existing rules and add new variables to:
+
+Create a new directory called zipf_analysis in the project directory.
+Copy all our code, data, plots, the Zipf summary table, the Makefile and config.mk to this directory. The cp -r command can be used to copy files and directories into the new zipf_analysis directory:
+
+$ cp -r [files and directories to copy] zipf_analysis/
+
+Hint: create a new variable for the books directory so that it can be copied to the new zipf_analysis directory
+
+````
+$(ZIPF_DIR): Makefile config.mk $(RESULTS_FILE) \
+             $(DAT_FILES) $(PNG_FILES) $(TXT_DIR) \
+             $(COUNT_SRC) $(PLOT_SRC) $(ZIPF_SRC)
+	mkdir -p $@
+	cp -r $^ $@
+	touch $@
+````
+
+Create an archive, zipf_analysis.tar.gz, of this directory. The bash command tar can be used, as follows:
+
+$ tar -czf zipf_analysis.tar.gz zipf_analysis
+
+````
+$(ZIPF_ARCHIVE) : $(ZIPF_DIR)
+	tar -czf $@ $<
+````
+
+
+Our code files (countwords.py, plotcounts.py, testzipf.py) implement the individual parts of our workflow. They allow us to create .dat files from .txt files, and results.txt and .png files from .dat files. Our Makefile, however, documents dependencies between our code, raw data, derived data, and plots, as well as implementing our workflow as a whole. config.mk contains configuration information for our Makefile, so it must be archived too.
