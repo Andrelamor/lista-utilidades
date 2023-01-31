@@ -1,6 +1,6 @@
 # [Automation and Make](http://swcarpentry.github.io/make-novice/)
 
-### [Makefiles](http://swcarpentry.github.io/make-novice/02-makefiles/index.html)
+## [Makefiles](http://swcarpentry.github.io/make-novice/02-makefiles/index.html)
 
 - Use `#` for comments in Makefiles.
 
@@ -11,7 +11,7 @@
 - Use `.PHONY` to mark targets that don’t correspond to files.
 
 
-### [Automatic Variables](http://swcarpentry.github.io/make-novice/02-makefiles/index.html)
+## [Automatic Variables](http://swcarpentry.github.io/make-novice/02-makefiles/index.html)
 
 - Use `$@` to refer to the target of the current rule.
 
@@ -34,7 +34,7 @@ isles.dat : books/isles.txt
 ````
 
 
-### [Dependencies on Data and Code](http://swcarpentry.github.io/make-novice/04-dependencies/index.html)
+## [Dependencies on Data and Code](http://swcarpentry.github.io/make-novice/04-dependencies/index.html)
 
 - Dry Run: make can show the commands it will execute without actually running them if we pass the `-n` flag
 
@@ -50,7 +50,7 @@ results.txt : testzipf.py isles.dat abyss.dat last.dat
 ````
 
 
-### [Pattern Rules](http://swcarpentry.github.io/make-novice/05-patterns/index.html)
+## [Pattern Rules](http://swcarpentry.github.io/make-novice/05-patterns/index.html)
 
 - Use the wildcard `%` as a placeholder in targets and dependencies.
 
@@ -65,7 +65,7 @@ dats : isles.dat abyss.dat last.dat
 ````
 
 
-### [Variables](http://swcarpentry.github.io/make-novice/06-variables/index.html)
+## [Variables](http://swcarpentry.github.io/make-novice/06-variables/index.html)
 
 - Define variables by assigning values to names.
 
@@ -98,7 +98,7 @@ clean :
 	rm -f results.txt
 ````
 
-### [Functions](https://swcarpentry.github.io/make-novice/07-functions/index.html)
+## [Functions](https://swcarpentry.github.io/make-novice/07-functions/index.html)
 
 Make is actually a small programming language with many built-in functions.
 
