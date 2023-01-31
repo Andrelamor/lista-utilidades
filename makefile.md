@@ -112,3 +112,14 @@ include config.mk
 TXT_FILES=$(wildcard books/*.txt)
 DAT_FILES=$(patsubst books/%.txt, %.dat, $(TXT_FILES))
 ````
+## [Self-Documenting Makefiles](https://swcarpentry.github.io/make-novice/08-self-doc/index.html)
+
+We use ## so we can distinguish between comments that we want sed to automatically filter, and other comments that may describe what other rules do, or that describe variables.
+
+We can then write a help target that applies sed to our Makefile:
+
+````
+.PHONY : help
+help : Makefile
+	@sed -n 's/^##//p' $<
+````
