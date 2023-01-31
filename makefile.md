@@ -97,3 +97,18 @@ clean :
 	rm -f *.dat
 	rm -f results.txt
 ````
+
+### [Functions](https://swcarpentry.github.io/make-novice/07-functions/index.html)
+
+Make is actually a small programming language with many built-in functions.
+
+Use `wildcard` function to get lists of files matching a pattern.
+
+Use `patsubst` function to rewrite file names.
+
+````
+include config.mk
+
+TXT_FILES=$(wildcard books/*.txt)
+DAT_FILES=$(patsubst books/%.txt, %.dat, $(TXT_FILES))
+````
