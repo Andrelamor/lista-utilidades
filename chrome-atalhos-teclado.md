@@ -1,0 +1,38 @@
+# Atalhos de teclado do Chrome
+- Abrir uma nova aba: mantenha pressionada a tecla Command e pressione T
+- Fechar a aba atual: Mantenha pressionada a tecla Command e pressione W
+- Reabrir a última aba fechada: Mantenha pressionadas as teclas Command e Shift, e pressione T
+- Visualizar a próxima aba: Mantenha pressionadas as teclas Command e Option, e pressione a tecla de seta para a direita
+- Visualizar a aba anterior: Mantenha pressionadas as teclas Command e Option, e pressione a tecla de seta para a esquerda
+- Ir diretamente para uma aba específica: Mantenha pressionada a tecla Command e selecione o número apropriado
+- Abrir um hiperlink em uma nova aba: Mantenha pressionada a tecla Command e clique no link
+- Abrir um link em uma nova janela: Mantenha pressionada a tecla Shift e clique no link
+- Colocar um cursor na barra de pesquisa: Mantenha pressionada a tecla Command e pressione L
+- Apagar a pesquisa atual: Mantenha pressionada a tecla Command e pressione Delete
+- Realçar a próxima palavra na pesquisa: Mantenha pressionadas as teclas Shift e Option, e pressione a tecla de seta para a direita
+- Realçar a última palavra em uma pesquisa: Mantenha pressionadas as teclas Shift e Option, e pressione a tecla de seta para a esquerda
+- Voltar para a página anterior: Pressione Delete
+- Avançar para a próxima página: Mantenha pressionada a tecla Shift e pressione Delete
+- Recarregar a página atual: Mantenha pressionada a tecla Command e pressione R
+- Abrir a barra Localizar: Mantenha pressionada a tecla Command e pressione F
+- Rolar o menu até as próximas palavras-chave na barra Localizar: Pressione Enter
+- Rolar o menu até as palavras-chave anteriores na barra Localizar: Mantenha pressionada a tecla Shift e pressione Enter
+- Salvar a página atual como um favorito: Mantenha pressionada a tecla Command e pressione D
+- Abrir a página de configurações: Mantenha pressionada a tecla Command e pressione a tecla de vírgula
+- Abrir a página de downloads: Mantenha pressionadas as teclas Command e Shift, e pressione J
+- Abrir uma nova janela: Mantenha pressionada a tecla Command e pressione N
+- Arrastar uma aba para fora da sua janela: Clique na aba e arraste-a para baixo
+- Fechar a janela atual: Mantenha pressionadas as teclas Command e Shift, e pressione W
+- Minimizar a janela atual: Mantenha pressionada a tecla Command e pressione M
+- Maximizar a janela atual: Mantenha pressionadas as teclas Control e Command, e pressione F
+- Rolar a página da Web para baixo: Toque na barra de espaço
+- Sair do Google Chrome: Mantenha pressionada a tecla Command e pressione Q
+- Ir para a última aba: Mantenha pressionada a tecla Command e pressione o número 9
+- Ocultar o Google Chrome: Mantenha pressionada a tecla Command e pressione H
+- Abrir uma janela anônima: Mantenha pressionada as teclas Ctrl, Shift e N.
+- Abrir histórico de navegação: Mantenha pressionada a tecla Ctrl e pressione H.
+- Abrir a página anterior do histórico na aba atual: Mantenha pressionada a tecla Alt e pressione a tecla da seta para a esquerda.
+- Abrir a próxima página do histórico na aba atual: Mantenha pressionada a tecla Alt e pressione a tecla da seta para a direita.
+- Imprimir página: Mantenha pressionada a tecla Ctrl e pressione a tecla P.
+- Solicitar ajuda: Pressione a tecla F1.
+- Atualizar a página atual: Pressione a tecla F5.
