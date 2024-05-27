@@ -1,7 +1,7 @@
 ## Dados Abertos
 - [Dados Abertos - fórum de discussão](https://dadosabertos.social/) - mantido por experts sobre tópicos relacionados
 - [Brasil.io Datasets](https://brasil.io/home/) - Repositório de dados públicos disponibilizados em formato acessível
-- [Avaliações Internacionais sobre Dados Abertos Governamentais](https://github.com/Andrelamor/repertorio-ppggoc/issues/2)
+- [Avaliações sobre Dados Abertos Governamentais](https://github.com/Andrelamor/repertorio-ppggoc/issues/2)
 - [Open Data Certificate - ODI](https://certificates.theodi.org/en/) - possível auto-certificação por dataset
 
 ## Governo Eletrônico 
